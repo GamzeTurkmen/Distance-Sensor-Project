@@ -30,7 +30,7 @@ void interrupt echo()
 }
 
 
-void main()
+void main() 
 {
   TRISB = 0b00010000;           //RB4 as Input PIN (ECHO)
   TRISD = 0x00; // LCD Pins as Output
